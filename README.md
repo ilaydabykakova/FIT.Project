@@ -1,4 +1,4 @@
-#FIT.Project
+### FIT.Project
 
 This project made for Internship. It is the website for recording the errors found in the software by people, entering data into the system and archiving them. 
 
