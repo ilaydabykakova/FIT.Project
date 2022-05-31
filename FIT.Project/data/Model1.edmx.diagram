@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="baf1319431ab415bb0573a025bb1ff6f" Name="Diagram1">
+        <EntityTypeShape EntityType="WikiDBModel.Document" Width="1.5" PointX="5.25" PointY="6.25" />
+        <EntityTypeShape EntityType="WikiDBModel.Entry" Width="1.5" PointX="3" PointY="3.375" />
+        <EntityTypeShape EntityType="WikiDBModel.EntryTag" Width="1.5" PointX="5.25" PointY="2.5" />
+        <EntityTypeShape EntityType="WikiDBModel.sysdiagrams" Width="1.5" PointX="0.75" PointY="6.75" />
+        <EntityTypeShape EntityType="WikiDBModel.Tag" Width="1.5" PointX="3" PointY="0.75" />
+        <EntityTypeShape EntityType="WikiDBModel.User" Width="1.5" PointX="0.75" PointY="3.5" />
+        <AssociationConnector Association="WikiDBModel.FK_Document_Entry" />
+        <AssociationConnector Association="WikiDBModel.FK_Entry_User" />
+        <AssociationConnector Association="WikiDBModel.FK_EntryTag_Entry" />
+        <AssociationConnector Association="WikiDBModel.FK_EntryTag_Tag" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
